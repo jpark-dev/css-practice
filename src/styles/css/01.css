@@ -1,0 +1,6 @@
+body {
+  font-size: 100px;
+}
+body .test-txt {
+  color: blue;
+}

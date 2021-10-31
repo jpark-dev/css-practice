@@ -1,0 +1,12 @@
+$font_size: 100px;
+$font_color: blue;
+$max-width: 1000px;
+
+body {
+  font: {
+    size: $font_size;
+  }
+  .test-txt {
+    color: $font_color;
+  }
+}

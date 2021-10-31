@@ -1,0 +1,24 @@
+{
+  "name": "css-practice",
+  "version": "1.0.0",
+  "description": "Replicate CSS side of many websites to practice CSS skills: Flexbox, Grid, SCSS, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "auto-c": "sass --watch ./src/styles/scss/:./src/styles/css/ --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpark-dev/css-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpark-dev/css-practice/issues"
+  },
+  "homepage": "https://github.com/jpark-dev/css-practice#readme",
+  "dependencies": {
+    "sass": "^1.43.4"
+  }
+}
