@@ -1,0 +1,30 @@
+// Variables
+$color_primary: #E7473C;
+$color_secondary: #787878;
+
+$font_size: 100px;
+$font_color: blue;
+$font_size_description: 1.3rem;
+
+$max-width: 1000px;
+
+$mb-1: 1rem;
+$padding_unit: 72px;
+
+// Extends
+%flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+%mb-1 {
+  margin-bottom: $mb-1;
+}
+%fs-xxs {
+  font-size: 0.8rem;
+}
+%fs-xs {
+  font-size: 1.3rem;
+}
+%fs-s {
+  font-size: 1.6rem;
+}

@@ -1,6 +1,4 @@
-$font_size: 100px;
-$font_color: blue;
-$max-width: 1000px;
+@import "_01.scss";
 
 body {
   font: {
@@ -8,5 +6,53 @@ body {
   }
   .test-txt {
     color: $font_color;
+  }
+}
+
+.main-wrapper {
+  display: flex;
+  height: 100vh;
+  .left-float-box {
+    .upper-container {
+      color: $color_primary;
+      font-size: 7.2rem;
+      margin-top: $padding_unit;
+    }
+    .lower-container {
+      width: 70%;
+      color: $color_primary;
+      .title {
+        @extend %mb-1;
+        @extend %fs-s;
+        line-height: 1.2;
+      }
+      .subtitle {
+        @extend %mb-1;
+        @extend %fs-xs;
+      }
+      .links {
+        @extend %flexbox;
+        > a {
+          color: $color_secondary;
+          margin-right: 1em;
+          margin-bottom: 1em;
+          @extend %fs-xs;
+        }
+        @extend %mb-1;
+      }
+      .description {
+        @extend %mb-1;
+        @extend %fs-xxs;
+        color: $color_secondary;
+      }
+    }
+    width: 33%;
+    padding: $padding_unit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contents {
+    width: auto;
   }
 }
